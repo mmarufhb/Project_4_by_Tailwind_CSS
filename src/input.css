@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply relative md:static bg-blue-100 flex flex-col md:flex-row gap-6 justify-between items-center p-6 rounded-lg border-l-4 border-l-green-900
+}
+
+.first {
+  @apply w-full flex gap-6 border-b-2 border-gray-400 md:border-none pb-4 md:pb-0
+}
+
+.pic {
+  @apply absolute md:static -top-12 left-10
+}
+
+.first-content {
+  @apply pt-12 flex flex-col gap-4
+}
